@@ -1,0 +1,33 @@
+/* 1. Thiết lập màu nền cho toàn bộ trang web */
+body {
+    background-color: #f4f6f8;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 20px;
+}
+
+/* Tiêu đề và mô tả */
+h1, p {
+    text-align: center;
+}
+
+/* 2 & 3. Thêm ảnh nền và căn giữa nội dung cho khối quan trọng */
+.important-box {
+    /* Đặt kích thước và căn giữa khối trên màn hình */
+    max-width: 600px;
+    margin: 40px auto;
+    padding: 40px 20px;
+
+    /* Căn giữa nội dung bên trong khối */
+    text-align: center;
+    color: #ffffff; /* Màu chữ sáng để dễ đọc trên nền ảnh */
+
+    /* Ảnh nền và thuộc tính hiển thị */
+    background-image: url('https://picsum.photos/800/400'); /* Hoặc đường dẫn ảnh cục bộ */
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+
+    border-radius: 8px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.15);
+}
